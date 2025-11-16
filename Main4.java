@@ -27,9 +27,10 @@ public class Main4 {
         double[][] dismatrix = distmat(matrix);
         for (double[] row : dismatrix) {
             for (double val : row) {
-                System.out.print(val + " ");
+                System.out.printf("%.2f. ", val);
             }
             System.out.println();
+            // System.out.printf("%.2f ", val);
 
         }
 

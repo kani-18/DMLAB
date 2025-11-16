@@ -1,4 +1,5 @@
 import java.util.Arrays;
+// filling the null values with mean of columns or attriutes 
 
 public class Main11 {
     public static double[] means(double[][] data) {

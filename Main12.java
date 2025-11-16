@@ -1,8 +1,11 @@
 public class Main12 {
+
+    // . correaltion betweeen two coefficeints
+
     public static void main(String[] args) {
 
         double[] a1 = { 2.1, 2.5, 3.6, 4.0, 5.2 };
-        double[] a2 = { 8, 12, 14, 16 };
+        double[] a2 = { 8, 12, 14, 16, 2 };
 
         int n = a1.length;
         int m = a2.length;

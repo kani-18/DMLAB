@@ -25,7 +25,7 @@ public class Main5 {
         double[][] dismatrix = Manhattan(matrix);
         for (double[] row : dismatrix) {
             for (double val : row) {
-                System.out.print((val) + " ");
+                System.out.printf("%.2f. ", val);
             }
             System.out.println();
 
